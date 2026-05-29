@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    border: solid black 1px;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0%; 
+}
+
+.square {
+    flex: 1 1 0%; 
+}
+
+.numbers {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
